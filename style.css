@@ -1,0 +1,86 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+button{
+  height: 50px;
+  background-color: #cecece;
+  width : 100%
+
+}
+button:hover{
+  background-color: #e0e0e0;
+}
+.choice-grid img.checked {
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+  }
+
+div .unchecked{
+  opacity: 0.6;
+}
+footer{
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 0, 0.545);
+ text-align: center;
+}
+footer h1{
+  margin-bottom: 18px;
+  background-color: rgba(102, 51, 153, 0.473);
+}
+footer p{
+  margin-bottom: 18px;
+  background-color: rgba(0, 128, 0, 0.451);
+}
+#grid {
+    align-content: space-between;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:100%;
+    width: 100%;
+  }
+  #grid div{
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border:solid #dcdcdc 1px;
+    width: calc((700px/100)*32.5);
+    
+  }
+
+  #grid .image {
+   
+    height: 90%;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #dcdcdc 1px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  h1{
+
+  }
+  .hidden{
+    display: none;
+  }
+
+  @media (max-width: 700px) {
+    article{
+      margin:auto;
+      width:95%;
+    }
+    #logo{
+      display: none;
+    }
+    }
+    @media (max-width: 500px) {
+      #grid div{
+        width: calc((700px/100)*49);
+      }
+      }
